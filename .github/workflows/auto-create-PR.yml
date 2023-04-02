@@ -17,4 +17,4 @@ jobs:
       - name: Creating Pull Request
         uses: heitorpolidoro/autocreate-pr@v2
         env:
-          <user>: ${{  secrets.GITHUB_TOKEN }}
+          <user>: ${{  secrets.ACTION_TOKEN }}
